@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+.Laptops {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#quantity {
+    margin-right: 10%;
+}
+#Total {
+    
+}
+#places{
+    margin-right: 14%;
+}
+#laptop1 h4{
+   font-size: 30px;
+}
+
+@media (max-width: 1025px) {
+    .Laptops{
+        display: flex;
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    #laptop1, #laptop2, #laptop3, #laptop4{
+        width: 100%;
+        height:max-content;
+
+    }
+}
+@media(max-width:413px){
+    #laptop1, #laptop2, #laptop3, #laptop4{
+        width: 100%;
+        height: max-content;
+      }
+      .Laptops div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+}
