@@ -25,7 +25,7 @@
 }
 .Laptops div{
     
-    width: 22%;
+    width: 23%;
     margin-left: 19px;
     height: 70%;
     background-color: white;
@@ -35,17 +35,18 @@
     .Laptops {
       display: flex;
       flex-wrap: wrap;
-      height: max-content%;
+      height: max-content;
     }
-    #laptop1, #laptop2, #laptop3, #laptop4{
-      width: 100%;
+.Laptops div{
+    width: 50%;
       height: max-content;
       padding: 10px;
     }
   }
-  @media(max-width:413px){
-      #laptop1, #laptop2, #laptop3, #laptop4{
-          width: 100%;
+  @media(max-width:500px){
+      .Laptops div{
+          width: 80%;
           margin-bottom: 10px;
+          margin-top: 10px;
         }
   }
