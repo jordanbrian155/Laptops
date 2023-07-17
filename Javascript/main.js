@@ -1,7 +1,7 @@
 var LaptopOne = {
     laptop:"images/dell.jpeg",
     name: "Dell",
-    price:200000,
+    price:"was" +200000,
     originalPrice:228000,
     itemId:"I001"
 }
